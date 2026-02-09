@@ -5,12 +5,12 @@ import Image from "next/image"
 import { useRef } from "react"
 
 const photos = [
-  { src: "/gallery-1.jpg", caption: "The flowers that remind me of you", tall: true },
-  { src: "/gallery-2.jpg", caption: "Our quiet mornings together", tall: false },
-  { src: "/gallery-3.jpg", caption: "Sunsets we chased", tall: false },
-  { src: "/gallery-4.jpg", caption: "Words I meant to say", tall: true },
-  { src: "/gallery-5.jpg", caption: "Even the cat knows we belong", tall: false },
-  { src: "/gallery-6.jpg", caption: "Our cozy little world", tall: false },
+  { src: "/gallery-1.jpg", caption: "That smile that makes everything better", tall: true },
+  { src: "/gallery-2.jpg", caption: "Golden hour, golden you", tall: false },
+  { src: "/gallery-3.jpg", caption: "A moment of grace", tall: false },
+  { src: "/gallery-4.jpg", caption: "Roses for the most beautiful one", tall: true },
+  { src: "/gallery-5.jpg", caption: "Sunlit and serene", tall: false },
+  { src: "/gallery-6.jpg", caption: "That effortless charm", tall: false },
 ]
 
 function GalleryItem({ photo, index }: { photo: (typeof photos)[0]; index: number }) {
@@ -80,7 +80,7 @@ export default function GallerySection() {
           viewport={{ once: true }}
           transition={{ delay: 0.5 }}
         >
-          {"Replace these with your own photos to make it truly yours."}
+          {"Every moment with you is worth a thousand words."}
         </motion.p>
       </div>
     </section>

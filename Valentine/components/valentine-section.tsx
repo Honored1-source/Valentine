@@ -123,7 +123,7 @@ export default function ValentineSection() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.6 }}
             >
-              {"You just made me the happiest person in the world."}
+              {"I knew you'd never say no... I'll LOVE YOUU ALWAYSSS..."}
             </motion.p>
 
             {/* Heart burst */}
