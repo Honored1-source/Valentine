@@ -74,7 +74,7 @@ function TypingText({ text, isInView }: { text: string; isInView: boolean }) {
       () => {
         setDisplayed(text.slice(0, displayed.length + 1))
       },
-      text[displayed.length] === "\n" ? 80 : 18,
+      text[displayed.length] === "\n" ? 200 : 45,
     )
 
     return () => clearTimeout(timeout)
