@@ -3,21 +3,56 @@
 import { motion, useInView } from "framer-motion"
 import { useRef, useEffect, useState } from "react"
 
-const letterText = `My dearest,
+const letterText = `There is something about you the world can't replace,
+A calm in your voice, a light in your face,
+No storm, no chaos, no grand display—
+Yet everything shifts when you stay.
 
-There are things I carry in my chest that I've never known how to say out loud. So I built this instead. A quiet little corner of the internet, just for you.
+Not loudly spoken, not forced or shown,
+But deeply, quietly, you are known,
+Like a truth the heart had always knew,
+Before it ever even met you.
 
-You came into my life like morning light — soft, warm, and impossible to ignore. Before you, I didn't know love could feel this steady, this safe, this full.
+This feeling didn't arrive with sound,
+It grew in silence, soft and profound,
+No sudden fire, no reckless start,
+Just a steady claim upon the heart.
 
-I love the way you make ordinary days feel extraordinary. The way a walk to the grocery store becomes an adventure. The way a rainy afternoon becomes the coziest memory. You turn everything you touch into something beautiful.
+And if love exists in its purest form,
+It isn't loud, it isn't a storm,
+It's the peace that settles, warm and true,
+In simply being close to you.
 
-I know I don't always find the right words at the right time. I know sometimes I go quiet when I should speak. But I want you to know — even in my silence, I am always loving you. Loudly. Endlessly.
+Not perfection, not some ideal,
+But something human, raw, and real,
+A presence that doesn't try to shine—
+Yet becomes the brightest sign.
 
-You are my favorite person. My safest place. My best friend. My greatest adventure.
+Because somewhere between each word you say,
+And every quiet, passing day,
+Something deeper begins to prove
+That this is more than passing "new."
 
-Thank you for choosing me. For staying. For being exactly who you are.
+It feels like care that chose to stay,
+Like light that gently found its way,
+Like fate didn't shout or loudly start—
+It simply placed you in this heart.
 
-I love you — not just today, but in every version of tomorrow I can imagine.`
+And what grows here cannot pretend,
+It doesn't rush, it doesn't bend,
+It stands, it breathes, it learns your name,
+And nothing after feels the same.
+
+Call it love, or something more,
+Something the soul has felt before,
+Not loud enough for crowds to see—
+But louder than eternity.
+
+Because loving you is not a phase,
+Not fleeting nights or passing days,
+It's the quiet truth the heart once knew…
+
+That it was always meant to love you.`
 
 const signature = "Forever yours"
 
