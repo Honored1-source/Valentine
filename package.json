@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "cd Valentine && next dev",
+    "build": "cd Valentine && next build",
+    "start": "cd Valentine && next start",
     "lint": "eslint ."
   },
   "dependencies": {
