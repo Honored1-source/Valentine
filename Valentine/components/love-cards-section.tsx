@@ -4,14 +4,14 @@ import { motion, useInView } from "framer-motion"
 import { useRef } from "react"
 
 const loveReasons = [
-  { title: "Your laugh", detail: "The way it fills up every room and makes the whole world feel warmer." },
-  { title: "Your kindness", detail: "How you care about people without ever asking for anything in return." },
-  { title: "Your eyes", detail: "They hold entire galaxies, and I get lost in them every single time." },
-  { title: "Your strength", detail: "The quiet way you carry so much, and still show up with grace." },
-  { title: "Your silence", detail: "Even when we say nothing, being beside you feels like everything." },
-  { title: "Your messy hair", detail: "Especially in the morning. Especially when you don't even know how beautiful you are." },
-  { title: "Your voice", detail: "It's the most calming sound I know. I could listen forever." },
-  { title: "Your heart", detail: "So big, so warm, so endlessly giving. It chose me, and I'll never take that for granted." },
+  { title: "Everything", detail: "The way you doubt yourself, while being more than enough in ways you don't even realize." },
+  { title: "Everything", detail: "The comfort in your presence, nothing loud (a little loud :) ), nothing forced, just peace." },
+  { title: "Everything", detail: "The way you care for your friends so deeply, like their happiness matters as much as your own." },
+  { title: "Everything", detail: "How you overthink sometimes... and still choose kindness every time." },
+  { title: "Everything", detail: "The softness in you that you sometimes mistake for weakness, but I see as your greatest strength." },
+  { title: "Everything", detail: "How real you are. No pretending, no trying to impress... just being you." },
+  { title: "Everything", detail: "The little things you do for people without expecting anything back." },
+  { title: "Everything", detail: "And most of all.... the way you exist so gently in this world, yet leave such a deep impact." },
 ]
 
 function LoveCard({ item, index }: { item: (typeof loveReasons)[0]; index: number }) {
@@ -85,7 +85,7 @@ export default function LoveCardsSection() {
 
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {loveReasons.map((item, i) => (
-            <LoveCard key={item.title} item={item} index={i} />
+            <LoveCard key={i} item={item} index={i} />
           ))}
         </div>
       </div>
