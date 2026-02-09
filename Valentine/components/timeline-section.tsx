@@ -10,24 +10,14 @@ const moments = [
     text: "I didn't know it then, but that moment changed everything. Something in the way you smiled told me the universe had plans.",
   },
   {
-    date: "Our first conversation",
-    title: "Nervous words",
-    text: "My heart was racing and I was trying so hard to seem calm. You made it so easy. Like we'd already known each other.",
-  },
-  {
-    date: "The first real date",
-    title: "Butterflies",
-    text: "I remember every detail. The way the light fell on your face. How time seemed to slow down. I knew I was falling.",
-  },
-  {
     date: "The night we stayed up talking",
     title: "No more walls",
-    text: "We talked until the sky turned pink. I told you things I'd never told anyone. And you held every word so gently.",
+    text: "We talked until the clock turned 4, I told you things I'd never told anyone. And you held every word so gently.",
   },
   {
     date: "When I knew",
     title: "Certainty",
-    text: "It wasn't one big moment. It was a hundred small ones. The way you handed me your jacket. The way you remembered my coffee order. The way you looked at me like I mattered.",
+    text: "It wasn't one big moment. It was a hundred small ones. The way you smiled at me. The way you remembered my small and little details. The way you looked at me like I mattered.",
   },
   {
     date: "Right now",
@@ -94,7 +84,7 @@ export default function TimelineSection() {
             A story worth telling
           </p>
           <h2 className="font-serif text-4xl font-bold text-foreground md:text-5xl lg:text-6xl">
-            Our Moments
+            Best Moments
           </h2>
           <div className="mx-auto mt-4 h-px w-16 bg-primary/40" />
         </motion.div>
